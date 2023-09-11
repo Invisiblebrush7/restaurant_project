@@ -1,0 +1,33 @@
+.example-container {
+  margin: 10px;
+}
+
+.example-right-align {
+  text-align: right;
+}
+
+input.example-right-align::-webkit-outer-spin-button,
+input.example-right-align::-webkit-inner-spin-button {
+  display: none;
+}
+
+input.example-right-align {
+  -moz-appearance: textfield;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.button-login {
+}
+.button-accent {
+  background-color: darkred;
+}
+
+.content {
+  height: 60%;
+}

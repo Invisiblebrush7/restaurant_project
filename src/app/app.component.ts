@@ -3,8 +3,13 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'restaurant_project';
+  title = 'ulab-home';
+  router: any;
+
+  loginPage() {
+    this.router.navigate(['/login']);
+  }
 }
